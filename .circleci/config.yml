@@ -10,4 +10,4 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - ssh run
+      - run ssh -p 64539
